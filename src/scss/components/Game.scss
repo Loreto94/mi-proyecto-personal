@@ -1,0 +1,16 @@
+@use "../core/variables" as vars;
+
+h3 {
+    font-family: vars.$font-family;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+

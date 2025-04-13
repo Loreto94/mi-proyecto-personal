@@ -1,0 +1,9 @@
+@use "../core/variables" as vars;
+
+h1 {
+    background-color: vars.$main_color;
+    color: white;
+    font-family: vars.$font-family;
+    font-weight: normal;
+    padding: 20px;
+}

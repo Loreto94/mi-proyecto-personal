@@ -1,0 +1,8 @@
+@use "../core/variables" as vars;
+
+.footerText {
+    background-color: vars.$main_color;
+    color: white;
+    font-weight: normal;
+    padding: 20px;
+}

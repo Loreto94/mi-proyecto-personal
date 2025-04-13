@@ -1,0 +1,17 @@
+@use "../core/variables" as vars;
+
+h3 {
+    font-family: vars.$font-family;
+    font-weight: normal;
+}
+
+p {
+    font-family: vars.$font-family;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: justify;
+}
+
+h4 {
+    font-family: vars.$font-family;
+}
